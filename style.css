@@ -4,43 +4,48 @@
 }
 
 body{
-    background-image: url(../img/batman.png);
     background-size: cover;
-    color: rgb(41, 238, 178);
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
     align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .userlogin {
-    background-color: #ffffff;
+    background-color: #55647c;
     width: 600px;
     height: 50px;
     text-align: center;
-    border-radius: 15px solid rgb(158, 234, 16);
+    border-radius: 15px solid rgb(128, 135, 116);
     margin-top: 10%;
-
+    margin: 15px;
+    border-radius: 20px;
 }
 
 .title{
     font-size: 28px;
-    font-style: italic;
-    color: blue;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
 
 }
 
 .passwordlogin {
-    background-color: rgba(255, 255, 255, 0.799);
+    background-color:rgb(55, 56, 76);
     width: 600px;
     height: 50px;
     text-align: center;
-    border-radius: 15px solid rgb(156, 234,16);
+    border-radius: 15px solid rgb(0, 0, 0);
     margin-top: 10%;
+    margin: 15px;
+    border-radius: 20px;
 
 }
 
 .userid{
+    margin-top: 15px;
     margin-right: 5px;
     margin-left: 50px;
     padding-left: 5px;
@@ -48,10 +53,11 @@ body{
 
     height: 25px;
     width: 300px;
-    border: solid 2px #09c222;
+    border: solid 2px #000000;
     border-radius: 10px;
     justify-items: center;
 }
+
 
 .buttons{
     margin-top: 20px;
@@ -69,4 +75,11 @@ body{
 .buttons img {
     width: 10px;
     height: 10px;
+}
+header{
+    margin-top: 10%;
+    margin: 15px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
 }
